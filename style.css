@@ -171,7 +171,29 @@ a{
     padding: 2.5rem;
     filter: grayscale(1);
     transition: all 1s;
+    animation: scaleImage 5s linear infinite;
+}
+
+.user-image img{
+    z-index: -8;
+}
+
+@keyframes scaleImage {
+    0%{
+        filter:grayscale(1);
+        transform:scale(1);
+    }
+
+    50%{
+
+    }
+
+    100%{
+
+    }
+
 
 }
+
 
 
